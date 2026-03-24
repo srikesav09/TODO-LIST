@@ -5,7 +5,7 @@ from tkinter import messagebox
 from tkinter import ttk
 
 # MySQL Connection
-con = mysql.connector.connect(host='localhost', user='root', password='srikesav9@', database='todo')
+con = mysql.connector.connect(host='localhost', user='root', password='your_password', database='todo')
 
 # Insert Function
 def insert():
